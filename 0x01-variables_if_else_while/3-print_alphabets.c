@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- * main - void
+/**
+ *main - void
  *Return: zero
  */
 int main(void)
@@ -12,8 +12,8 @@ int main(void)
 	    putchar(c);
     }
     for (c = 'A'; c <= 'Z'; c++)
-    {	 
-	       	putchar(c);
+    {
+	    putchar(c);
     }
     putchar('\n');
     return (0);
