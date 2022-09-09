@@ -4,7 +4,7 @@
 /**
  * main - void
  * Return: zero
- * */
+ */
 int main(void)
 {
 	int n;
