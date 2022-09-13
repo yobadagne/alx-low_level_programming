@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
  *_islower - lower case
- *
+ *@c: integer
  *Return: int
  */
 int _islower(int c)
 {
 	int r;
-	
+
 	if (c >= 97 && c <= 122)
 	{
 		r = 1;
@@ -16,5 +16,5 @@ int _islower(int c)
 	{
 		r = 0;
 	}
-	return r;
+	return (r);
 }
