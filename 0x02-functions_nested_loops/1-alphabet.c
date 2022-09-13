@@ -3,7 +3,7 @@
 /**
  * main - check the code
  *
- * Return: Always 
+ * Return: Always
  */
 void print_alphabet(void)
 {
@@ -13,5 +13,5 @@ void print_alphabet(void)
 	{
 		_putchar(c);
 	}
-        _putchar('\n');
+       	_putchar('\n');
 }
