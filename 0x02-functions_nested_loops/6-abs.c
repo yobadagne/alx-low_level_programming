@@ -2,7 +2,7 @@
 /**
  *_abs - absolute
  *@n: parameter
- *Return- int
+ *Return: int
  *
  */
 int _abs(int n)
