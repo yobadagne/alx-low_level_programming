@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - check the code
+ * print_alpahbet - check the code
  *
- * Return: Always
+ * Return: void
  */
 void print_alphabet(void)
 {
@@ -13,5 +13,5 @@ void print_alphabet(void)
 	{
 		_putchar(c);
 	}
-       	_putchar('\n');
+	_putchar('\n');
 }
