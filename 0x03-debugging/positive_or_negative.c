@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints if number is positive, zero or negative
- *
+ * positive_or_negative - Prints if number is positive, zero or negative
+ *@i: int
  * Return: Always (Success)
  */
 void positive_or_negative(int i)
@@ -24,6 +24,4 @@ void positive_or_negative(int i)
 	{
 		printf("%d is negative\n", i);
 	}
-
-	return;
 }
