@@ -2,7 +2,8 @@
 
 /**
  * _sqrt_recursion - find natural square root
- * @n: int
+ * @n: in
+ *@val: val
  * Return: int
  */
 int square(int n, int val);
