@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
-*main - main
-*@argc: argument
-*@argv: array
-*Return: zero
+* main - function
+* @argc: argument
+* @argv: array
+* Return: zero
 */
 int main(int argc, char const *argv[])
 {
