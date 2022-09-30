@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
 *main - name print
 *@argc: no of arg
@@ -8,6 +9,11 @@
 int main(int argc, char *argv[])
 {
 	if (argc != 0)
-	printf("%s\n",argv[0]);
+	for (; *argv[0] != '\0';)
+	{
+		_putchar(*argv[0]);
+		argv[0]++;
+	}
+	_putchar('\n');
 	return (0);
 }
