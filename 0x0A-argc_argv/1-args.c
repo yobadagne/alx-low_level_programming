@@ -5,7 +5,7 @@
 *@argv: array
 *Return: zero
 */
-int main(int argc, char *argv[])
+int main(int argc, char const *argv[])
 {
 	(void)argv;
 	printf("%d\n", argc - 1);
