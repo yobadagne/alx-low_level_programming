@@ -16,7 +16,7 @@ int main (int argc, char const *argv[])
 		return (0);
 	}
 	for (i = 1; i <= argc - 1; i++)
-	{	
+	{
 		if (*argv[i] < 48 || *argv[i] > 57)
 		{
 			printf("Error\n");
